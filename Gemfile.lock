@@ -14,17 +14,19 @@ GEM
     cloudstack_client (0.7.1)
     erubis (2.7.0)
     highline (1.6.21)
-    json (1.8.1)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.1)
+    psych (4.0.4)
+      stringio
     rake (10.3.2)
-    rdoc (4.1.2)
-      json (~> 1.4)
+    rdoc (6.4.0)
+      psych (>= 4.0.0)
     sshkit (1.3.0)
       net-scp (>= 1.1.2)
       net-ssh
       term-ansicolor
+    stringio (3.0.1)
     term-ansicolor (1.3.0)
       tins (~> 1.0)
     thor (0.19.1)
